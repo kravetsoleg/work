@@ -1,18 +1,21 @@
 "use strict";
- 
-let incr = 10,
-    decr = 10;
 
-    // ++incr;
-    // --decr;
+const numberOfFilms = +prompt('Скільки фільмів ви вже подивилися?', '');
 
-    console.log(incr);
-    console.log(decr);
+const personalMovieDB = {
+      count: numberOfFilms,
+      movies: {},
+      actors: {},
+      genres: [],
+      privat: false
+};
 
-    console.log(2 + 2 * 2 == 8);
+const a = prompt('Один із останніх переглянутих фільмів?', ''),
+      b = prompt('На скільки ви якого оціните?', ''),
+      c = prompt('Один із останніх переглянутих фільмів?', ''),
+      d = prompt('На скільки ви якого оціните?', '');
 
-  
+personalMovieDB.movies[a] = b;    
+personalMovieDB.movies[c] = d;
 
-    const isChecked = true;
-          isClose = false;
-    console.log(isChecked || !isClose);      
+console.log(personalMovieDB);
