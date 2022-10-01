@@ -7,8 +7,9 @@
 
 const hamburger = 2;
 const fries = 1;
+const cola = 1;
 
-if (hamburger === 3 && fries) {
+if (hamburger === 3 && cola && fries) {
     console.log('Всі ситі!');
    }   else {
     console.log('Ми валимо');
