@@ -40,3 +40,5 @@ if (hamburger === 3 && cola === 2 || fries ===3 && nuggets) {
    let johnReport, alexReport, samReport, ivanReport = 'done';
 
    console.log(hamburger === 3 && cola === 2 || fries ===3 && nuggets);
+
+   console.log( 5 === 5 && 3 > 1 || 5 );
