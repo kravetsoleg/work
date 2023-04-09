@@ -7,20 +7,11 @@
 // }
 
 
+const str = 'test';
 
-const num = 50;
+console.log (str.toUpperCase());
+console.log (str);
 
-switch (num) {
-    case 49:
-        console.log('Невірно');
-        break;
-    case 100:
-        console.log('Невірно');
-        break;
-    case 51:
-        console.log('Вірно');
-        break;    
-    default:
-        console.log('Ні ні ні');
-        break;    
-}
+const fruit = "Some fruit";
+
+console.log (fruit.indexOf());
